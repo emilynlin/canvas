@@ -6,8 +6,8 @@
 <!-- You can add your style here rather than in an external style sheet. -->
 <style>
 	canvas {
-	    border:5px solid #222;
-	    background-color: #dde3eb;
+	    border:5px solid #d3d3d3;
+	    background-color: #f1f1f1;
 	    display: block;
 	}
 </style>
@@ -32,7 +32,7 @@
 			}
 		  function draw(posX, posY){
 		    ctx.fillStyle = color;
-		    console.log("I am drawing")
+		    console.log("Drawing")
 		    ctx.beginPath();
 		    ctx.arc(posX, posY, 10, 0, 2 * Math.PI);
 		    ctx.fill();
